@@ -1,0 +1,53 @@
+
+
+
+Commit
+	git add .	
+	git commit -m "explication"
+	git push -u origin master
+
+
+Personal token
+	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
+
+Vocabulaire
+	sha-1																-> Liste de caractère qui défini un commit
+
+
+Versionner en Local
+	gid init 															-> Initialise le dépôt. 
+	git add .															-> Ajoute toute les modifications (le . symbolise "tout").
+	git diff 															-> Affiche les modifications avant commit.
+	git status															-> Etat du fichier.
+	git commit -m "explication"											-> Créer un nouveau commit.
+	
+Gérer les commits	
+	git log																-> Liste des commits
+	git log -n2															-> Liste des 2 derniers commits
+	git checkout sha-1													-> Reviens à la version sha-1
+	git checkout master													-> Reviens à la version la plus recent
+
+Versonner Online
+	git clone lien_git_hub												->Récupérer le travail depuis un dépot distant
+	git push -u origin master											->Pousse les modifications vers le serveur
+	git push -f origin master											->Pousse de force les modifications (manipuler avec précaution)
+
+
+
+Initialisation de Git
+	git config --global user.name "nom"									-> Créer ou changer de nom.
+	git config --global user.email "email@.com"							-> Créer ou changer d'email.
+	git config --global -- list											-> affiche nom et email.
+	
+	
+	
+	
+	
+	
+	
+	
+###########################################################
+Gérer les tokens:
+
+git remote add origin https://USERNAME:TOKEN@github.com/AntaresPlk/github_tuto.git              (Remplacez USERNAME par votre nom d'utilisateur GitHub et TOKEN par votre jeton d'accès personnel copié précédemment.)
+git push -u origin main
